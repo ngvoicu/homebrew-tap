@@ -4,6 +4,12 @@ class Provimux < Formula
   version "8.0.77-pmx.1"
   license "MIT"
 
+  livecheck do
+    url :stable
+    regex(/^v?(\d+(?:\.\d+)+-pmx\.\d+)$/i)
+    strategy :github_latest
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/ngvoicu/provimux/releases/download/v8.0.77-pmx.1/provimux_8.0.77-pmx.1_darwin_aarch64.tar.gz"
@@ -26,20 +32,15 @@ class Provimux < Formula
     end
   end
 
-  livecheck do
-    url :stable
-    regex(/^v?(\d+(?:\.\d+)+-pmx\.\d+)$/i)
-    strategy :github_latest
-  end
-
   def install
     bin.install "provimux"
     pkgshare.install "config.example.yaml"
   end
 
-  def post_install
-    config = etc/"provimux.conf"
-    cp pkgshare/"config.example.yaml", config unless config.exist?
+  post_install_steps do
+    unless_path_exists "provimux.conf", base: :etc do
+      copy "config.example.yaml", "provimux.conf", source_base: :pkgshare, target_base: :etc
+    end
   end
 
   def caveats
