@@ -1,5 +1,5 @@
 class Provimux < Formula
-  desc "Local endpoint for AI subscriptions and API keys, built on CLIProxyAPI"
+  desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
   version "8.0.77-pmx.1"
   license "MIT"

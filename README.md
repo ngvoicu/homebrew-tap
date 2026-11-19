@@ -2,11 +2,11 @@
 
 Homebrew formulae by [ngvoicu](https://github.com/ngvoicu).
 
-## Provimux
+## <img src="media/provimux.svg" alt="" width="32" height="32" align="absmiddle"> Provimux
 
-[Provimux](https://github.com/ngvoicu/provimux) is one local endpoint for your AI subscriptions and API keys, a
-distribution of [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI). The formula installs the prebuilt release
-binary for macOS (Apple silicon, Intel) and Linux (arm64, x64).
+[Provimux](https://github.com/ngvoicu/provimux), by [providers.dev](https://providers.dev), is one local endpoint for
+your AI subscriptions and API keys, a distribution of [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI). The
+formula installs the prebuilt release binary for macOS (Apple silicon, Intel) and Linux (arm64, x64).
 
 ```bash
 brew install ngvoicu/tap/provimux
