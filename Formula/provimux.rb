@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.0.79-pmx.1"
+  version "8.0.79-pmx.2"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.1/provimux_8.0.79-pmx.1_darwin_aarch64.tar.gz"
-      sha256 "36ec504d3837d82b30743107a61fd8fd7082d8e2e49e04d05446f6e2fce6967f"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.2/provimux_8.0.79-pmx.2_darwin_aarch64.tar.gz"
+      sha256 "58b95c296341b36b589633ed25c98b5f614499a9a6e0a8f3c5f36739f1bb56a4"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.1/provimux_8.0.79-pmx.1_darwin_amd64.tar.gz"
-      sha256 "6cd313e3a2dea1386bacb5e1b1ea590b8744b293ea010cbe9ee70a1fdbcd335e"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.2/provimux_8.0.79-pmx.2_darwin_amd64.tar.gz"
+      sha256 "b065d9e956a04e0a3cc0e9e88b475ba60bb93456cde3576fa17b6e041a636145"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.1/provimux_8.0.79-pmx.1_linux_aarch64.tar.gz"
-      sha256 "12494775ed013944405335585c8e99a84b2d75f6f8989fc98a18565b894598db"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.2/provimux_8.0.79-pmx.2_linux_aarch64.tar.gz"
+      sha256 "7c88b4f3ccd58dd25413cc602deb15256727d66018c384a6226fd73d9066fff9"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.1/provimux_8.0.79-pmx.1_linux_amd64.tar.gz"
-      sha256 "c147ab5bee50023841f086ad145b8448c8f4b2445ddd41137089d09977029c8d"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.0.79-pmx.2/provimux_8.0.79-pmx.2_linux_amd64.tar.gz"
+      sha256 "0a02f276910d6e2db2524de247b5837f780baf0b3b938a4dd5c0726453ad96da"
     end
   end
 
