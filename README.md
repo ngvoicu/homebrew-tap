@@ -11,17 +11,24 @@
   <a href="https://github.com/ngvoicu/provimux/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/ngvoicu/provimux?color=4338ca"></a>
 </p>
 
-**Provimux**, by [providers.dev](https://providers.dev), is one local endpoint for your AI subscriptions and API keys.
-Sign in with your Claude and Codex subscriptions (subscription login, `oauth`), add your API keys (API key, `apikey`)
-and an OpenRouter key, and point your tools at `http://127.0.0.1:8317`. It is a drop-in distribution of
-[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) by router-for-me: everything CLIProxyAPI does, plus the
-features below, with its web console, [provimux-ui](https://github.com/ngvoicu/provimux-ui).
+**One key for every AI account.**
+
+A self-hosted AI gateway: one OpenAI-, Claude- and Gemini-compatible endpoint for your API keys and accounts, with the
+prompt cache kept in use and the account behind every answer shown. This tap installs it with Homebrew.
+
+**Provimux**, by [providers.dev](https://providers.dev), is one local endpoint for your AI accounts. Add your API keys
+(API key, `apikey`) and an OpenRouter key, then point your tools at `http://127.0.0.1:8317`. Provimux keeps your prompt
+cache in use: it adds cache markers on OpenRouter, keeps each conversation on one upstream, and forwards the longer
+cache lifetime on OpenAI API keys. It tells you which accounts serve each model and which one answered, and its
+console shows why a route is paused. Provimux is an open-source (MIT) distribution of
+[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) by router-for-me, tested against each CLIProxyAPI release.
 
 **[Provimux](https://github.com/ngvoicu/provimux)** · the endpoint &nbsp;·&nbsp; **[provimux-ui](https://github.com/ngvoicu/provimux-ui)** · its
 web console &nbsp;·&nbsp; **[providers.dev](https://providers.dev)**
 
-Provimux adds per-model account visibility, live model lists and built-in OpenRouter support, among
-[other features](https://github.com/ngvoicu/provimux#what-provimux-adds).
+Provimux adds built-in OpenRouter prompt caching, the longer prompt cache on OpenAI API keys, which account serves
+each model and which one answered, and live model lists, among
+[other features](https://github.com/ngvoicu/provimux/blob/main/.github/README.md#what-provimux-adds).
 
 ## Install
 
@@ -47,3 +54,14 @@ brew services start provimux
 
 Provimux releases follow CLIProxyAPI automatically; see
 [Versions and releases](https://github.com/ngvoicu/provimux/blob/main/.github/README.md#versions-and-releases).
+
+## Support
+
+Provimux is free and stays open source (MIT). For companies that run it, providers.dev offers support plans:
+**Community** (free: GitHub issues and discussions, best effort) and **Team**, **Business** and **Priority** (paid),
+listed with prices and terms at [providers.dev/support](https://providers.dev/support/). A paid plan buys a private
+channel and a first reply within a stated number of business days: a reply, not a promised fix. Provimux has one
+maintainer, and we say so: announced holidays pause the clock, there is no 24/7 and no uptime promise for a service
+you host yourself, and the code stays MIT, so you can always fork it.
+
+A GitHub **Sponsor** button for providers.dev's own GitHub Sponsors will come later.
