@@ -16,11 +16,12 @@
 A self-hosted AI gateway: one OpenAI-, Claude- and Gemini-compatible endpoint for your API keys and accounts, with the
 prompt cache kept in use and the account behind every answer shown. This tap installs it with Homebrew.
 
-**Provimux**, by [providers.dev](https://providers.dev), is one local endpoint for your AI accounts. Add your API keys
-(API key, `apikey`) and an OpenRouter key, then point your tools at `http://127.0.0.1:8317`. Provimux keeps your prompt
-cache in use: it adds cache markers on OpenRouter, keeps each conversation on one upstream, and forwards the longer
-cache lifetime on OpenAI API keys. It tells you which accounts serve each model and which one answered, and its
-console shows why a route is paused. Provimux is an open-source (MIT) distribution of
+**Provimux**, by [providers.dev](https://providers.dev), is a self-hosted AI gateway for you or your whole team. Your
+subscriptions and API keys behind one endpoint, open to everyone you choose. Pools of models from every provider, with
+the prompt cache kept in use. Run it on your own machine or on a server your team shares, give each person their own
+client key, and point their tools at it. To keep the prompt cache in use, Provimux adds cache markers on OpenRouter,
+keeps each conversation on one upstream, and forwards the longer cache lifetime on OpenAI API keys. It tells you which
+accounts serve each model and which one answered, and its console shows why a route is paused. Provimux is an open-source (MIT) distribution of
 [CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) by router-for-me, tested against each CLIProxyAPI release.
 
 **[Provimux](https://github.com/ngvoicu/provimux)** · the endpoint &nbsp;·&nbsp; **[provimux-ui](https://github.com/ngvoicu/provimux-ui)** · its
@@ -40,7 +41,11 @@ brew services start provimux
 ```
 
 Then open the console, [provimux-ui](https://github.com/ngvoicu/provimux-ui), at
-`http://127.0.0.1:8317/management.html`. Provimux downloads it by itself.
+`http://127.0.0.1:8317/management.html` (on the same machine; from another machine, use the server's address).
+Provimux downloads it by itself.
+
+To serve a team from one server, with a client key per person, see
+[For a team](https://github.com/ngvoicu/provimux/blob/main/.github/README.md#for-a-team) in Provimux's README.
 
 The config is `$(brew --prefix)/etc/provimux.conf`, created from `config.example.yaml` on first install and never
 overwritten. Provimux uses the same config format and auth folder (`~/.cli-proxy-api`) as CLIProxyAPI. To reuse an
