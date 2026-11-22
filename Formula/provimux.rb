@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.1-pmx.1"
+  version "8.1.1-pmx.2"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.1/provimux_8.1.1-pmx.1_darwin_aarch64.tar.gz"
-      sha256 "408e48ccbaea1a9453afcc614b72d9b5ab85faf9f2ae132089ca8d8fa7fce1ea"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_darwin_aarch64.tar.gz"
+      sha256 "a55b1816e56fd789148591b09f728130c572001a1e7e9973a610b4dab87ae7e9"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.1/provimux_8.1.1-pmx.1_darwin_amd64.tar.gz"
-      sha256 "525e0604a7bb76a5ebaa9e87ac98e7ee36bc3fa171fba28bbe15f67ef2fb3361"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_darwin_amd64.tar.gz"
+      sha256 "1a5b7612eb7763388944ed888e210fadfa1015db11be74649bd3b3e0c4b7c640"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.1/provimux_8.1.1-pmx.1_linux_aarch64.tar.gz"
-      sha256 "312dfa66f4d556d49b4dd6ebca232907d76a471a04032eeef96b539ed651886b"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_linux_aarch64.tar.gz"
+      sha256 "e908a7f8c5f897fdb1b50024dc7fe067e672d23bd749dd80206c8499d0a65a1a"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.1/provimux_8.1.1-pmx.1_linux_amd64.tar.gz"
-      sha256 "bfe887640e23728edb9772dcecc62f5ee85c3f82b3421876fcc738895a14c8cf"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_linux_amd64.tar.gz"
+      sha256 "5849755377750321bad52373367adc12cbd4734dc9abc8f2171fb7972af933b1"
     end
   end
 
