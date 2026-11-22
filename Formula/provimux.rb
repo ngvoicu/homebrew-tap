@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.0-pmx.1"
+  version "8.1.0-pmx.2"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.1/provimux_8.1.0-pmx.1_darwin_aarch64.tar.gz"
-      sha256 "9de1d27732dbcb720daf49e41992828ccb5c963f54dff27e9ae847f4b28e9e07"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.2/provimux_8.1.0-pmx.2_darwin_aarch64.tar.gz"
+      sha256 "44192529752471efb77a386fd15a0edaa0477e525eb513d5ac4fc3d2d3915c2e"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.1/provimux_8.1.0-pmx.1_darwin_amd64.tar.gz"
-      sha256 "8f462c3cca4363a35733ff456f9173517998a07e8939d215e06c1c52388a85f1"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.2/provimux_8.1.0-pmx.2_darwin_amd64.tar.gz"
+      sha256 "0832c8a40fe26d666142e4876fa6df8f6536b502467188e8885ad2edfa579eb9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.1/provimux_8.1.0-pmx.1_linux_aarch64.tar.gz"
-      sha256 "76d5a1c0686005d0de3fbb7cca0f1ae23b1fd0cf39976cde9df4964cf30ebfa2"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.2/provimux_8.1.0-pmx.2_linux_aarch64.tar.gz"
+      sha256 "5a3cb45dfc8c9c1e92fc601d1ac0aae396f54d99554f18c9f4315faa8aae218b"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.1/provimux_8.1.0-pmx.1_linux_amd64.tar.gz"
-      sha256 "538fdaa80169829719fab3b069683e2892d6f8b791d04dfdbf9d45b2cec01bf8"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.0-pmx.2/provimux_8.1.0-pmx.2_linux_amd64.tar.gz"
+      sha256 "ef260d0de9a99331250719b398caaa6c71ac54b32c51898f1533d3a256cf582e"
     end
   end
 
