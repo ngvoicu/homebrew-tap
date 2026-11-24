@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.1-pmx.2"
+  version "8.1.2-pmx.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_darwin_aarch64.tar.gz"
-      sha256 "a55b1816e56fd789148591b09f728130c572001a1e7e9973a610b4dab87ae7e9"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.1/provimux_8.1.2-pmx.1_darwin_aarch64.tar.gz"
+      sha256 "fabaf4b149c20b9c9038293d4936cd92b76ece9de9acdece0151223b707e911c"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_darwin_amd64.tar.gz"
-      sha256 "1a5b7612eb7763388944ed888e210fadfa1015db11be74649bd3b3e0c4b7c640"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.1/provimux_8.1.2-pmx.1_darwin_amd64.tar.gz"
+      sha256 "a39a82e45893301b36450406d71817b62196f9dde1c7096b43827bfbe0de9183"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_linux_aarch64.tar.gz"
-      sha256 "e908a7f8c5f897fdb1b50024dc7fe067e672d23bd749dd80206c8499d0a65a1a"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.1/provimux_8.1.2-pmx.1_linux_aarch64.tar.gz"
+      sha256 "97532ab8a060da508f030c4ec5ab91584dfeafafe4aeb5f7b5b1665f5403013b"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.1-pmx.2/provimux_8.1.1-pmx.2_linux_amd64.tar.gz"
-      sha256 "5849755377750321bad52373367adc12cbd4734dc9abc8f2171fb7972af933b1"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.1/provimux_8.1.2-pmx.1_linux_amd64.tar.gz"
+      sha256 "20a7c337ffd809ef999ab8dba0d823bb42b43cb69f94a4a281b1f95fec3022a9"
     end
   end
 
