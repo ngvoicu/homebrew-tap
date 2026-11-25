@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.3-pmx.1"
+  version "8.1.3-pmx.2"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_darwin_aarch64.tar.gz"
-      sha256 "599169b9a0ca42770204f67984081fc6a32afc0720f5e991e16f0a0cbdd4c696"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_darwin_aarch64.tar.gz"
+      sha256 "0801e46bebfae1b6c77a11e5e97db0d03f496f4b92ff1f45015d17f14bcd95c6"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_darwin_amd64.tar.gz"
-      sha256 "3d477056f144335f57fbe77f1fc8746b7a3210a6361b2e2837f22f8a28f29a62"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_darwin_amd64.tar.gz"
+      sha256 "6dd480ba18f1a00d5899c39410f1b69305847f0560388a01debfaa5d0d0a3e92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_linux_aarch64.tar.gz"
-      sha256 "9518c4bc4e4c04d4be3adf29c0f2a2420d12bb7fd03daeeef19396b9eb4d9055"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_linux_aarch64.tar.gz"
+      sha256 "244ef18107693a1cb02bbb55fb608269fbdfb6277e237cf2daea013c05cd292e"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_linux_amd64.tar.gz"
-      sha256 "07bc79c5fc451df52cd388f2436fa91ffe54eaad222992d242ed223c48e420fd"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_linux_amd64.tar.gz"
+      sha256 "cb1eafd74d34c2b313b175b328a275a513afd3362b20340a4f6a03bfd26c7a48"
     end
   end
 
