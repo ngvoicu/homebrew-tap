@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.2-pmx.2"
+  version "8.1.3-pmx.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.2/provimux_8.1.2-pmx.2_darwin_aarch64.tar.gz"
-      sha256 "070c1103c4fd027dafa0582aa97178096c2473b09c33f3818f791c39b98dfa78"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_darwin_aarch64.tar.gz"
+      sha256 "599169b9a0ca42770204f67984081fc6a32afc0720f5e991e16f0a0cbdd4c696"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.2/provimux_8.1.2-pmx.2_darwin_amd64.tar.gz"
-      sha256 "6cd3c122dd2dec76a51efd506fa52d00be208793ac8c5a36803565dc6b48401d"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_darwin_amd64.tar.gz"
+      sha256 "3d477056f144335f57fbe77f1fc8746b7a3210a6361b2e2837f22f8a28f29a62"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.2/provimux_8.1.2-pmx.2_linux_aarch64.tar.gz"
-      sha256 "594f70f0f8b8a658ffa5ce1d840da5af534f085ae3742c96a10f83faba61c705"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_linux_aarch64.tar.gz"
+      sha256 "9518c4bc4e4c04d4be3adf29c0f2a2420d12bb7fd03daeeef19396b9eb4d9055"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.2-pmx.2/provimux_8.1.2-pmx.2_linux_amd64.tar.gz"
-      sha256 "7b7b7bebaf179733ab7035c87fce631a3b021205aa41bd8ea195eb7b2b7a6dcd"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.1/provimux_8.1.3-pmx.1_linux_amd64.tar.gz"
+      sha256 "07bc79c5fc451df52cd388f2436fa91ffe54eaad222992d242ed223c48e420fd"
     end
   end
 
