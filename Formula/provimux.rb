@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.3-pmx.2"
+  version "8.1.4-pmx.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_darwin_aarch64.tar.gz"
-      sha256 "0801e46bebfae1b6c77a11e5e97db0d03f496f4b92ff1f45015d17f14bcd95c6"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.1/provimux_8.1.4-pmx.1_darwin_aarch64.tar.gz"
+      sha256 "ee13b251ee315bbcdc7783209bcfd186c44c759da7472b5dc65bc6186028bd64"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_darwin_amd64.tar.gz"
-      sha256 "6dd480ba18f1a00d5899c39410f1b69305847f0560388a01debfaa5d0d0a3e92"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.1/provimux_8.1.4-pmx.1_darwin_amd64.tar.gz"
+      sha256 "1c1a7ad8ab5ccd0c8734db734115ea27ddaf12ab05004e184f1a2e7d25fceacb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_linux_aarch64.tar.gz"
-      sha256 "244ef18107693a1cb02bbb55fb608269fbdfb6277e237cf2daea013c05cd292e"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.1/provimux_8.1.4-pmx.1_linux_aarch64.tar.gz"
+      sha256 "05528354ccfa139ee13ff30c4de04bb72fb49c47f3d6ec041dddbefdadbce361"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.3-pmx.2/provimux_8.1.3-pmx.2_linux_amd64.tar.gz"
-      sha256 "cb1eafd74d34c2b313b175b328a275a513afd3362b20340a4f6a03bfd26c7a48"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.1/provimux_8.1.4-pmx.1_linux_amd64.tar.gz"
+      sha256 "5b1eb4723bd495fb8db8df77270d2f1c08dbc14184e216ed8d3f6324e8741fd1"
     end
   end
 
