@@ -64,8 +64,9 @@ Provimux releases follow CLIProxyAPI automatically; see
 
 Provimux is free and stays open source (MIT). For companies that run it, providers.dev offers support plans:
 **Community** (free: GitHub issues and discussions, best effort) and **Team**, **Business** and **Priority** (paid),
-listed with prices and terms at [providers.dev/support](https://providers.dev/support/). A paid plan buys a private
-channel and a first reply within a stated number of business days: a reply, not a promised fix. Provimux has one
+listed with prices and terms at
+[provimux.providers.dev/support](https://provimux.providers.dev/support/). A paid plan buys a private channel and a
+first reply within a stated number of business days: a reply, not a promised fix. Provimux has one
 maintainer, and we say so: announced holidays pause the clock, there is no 24/7 and no uptime promise for a service
 you host yourself, and the code stays MIT, so you can always fork it.
 
