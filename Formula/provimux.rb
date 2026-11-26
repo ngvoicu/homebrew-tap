@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.4-pmx.2"
+  version "8.1.7-pmx.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.2/provimux_8.1.4-pmx.2_darwin_aarch64.tar.gz"
-      sha256 "d2f2fa54b5b233583b37f87794e113974fe1ab1c0c867938c1ee3d6cfa030c94"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_darwin_aarch64.tar.gz"
+      sha256 "0518f08ea05ba29d3907ad9b978aa965fb9c62c94d4e6f1779d879067785f67d"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.2/provimux_8.1.4-pmx.2_darwin_amd64.tar.gz"
-      sha256 "287ba61e92ca23eb5cda00444566a3db4715b912d530e47ffcbf3fc796ad25c8"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_darwin_amd64.tar.gz"
+      sha256 "84af26ff2defb921034aebec5500d8e629c4fc8b3dc5d692df22de1905120a01"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.2/provimux_8.1.4-pmx.2_linux_aarch64.tar.gz"
-      sha256 "1b2d0dea820a6cee9d0d1cc56df5b65fcba01f5394d0516f984b83aad2ad2eab"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_linux_aarch64.tar.gz"
+      sha256 "0ac55760e05dbdc09a5c00c0fd8418dd9b32ff9fb1a72173bc1df0628b59fe28"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.4-pmx.2/provimux_8.1.4-pmx.2_linux_amd64.tar.gz"
-      sha256 "bcda71d4d6834d58cb11797dee8af1444ff1fd0e6b4c3ce17bc3395f02793115"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_linux_amd64.tar.gz"
+      sha256 "750c162b29072d5bc085404c9bb99f861a45c1f0973278478f754236098ffcad"
     end
   end
 
