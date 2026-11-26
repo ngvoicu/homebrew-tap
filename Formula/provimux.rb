@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.7-pmx.1"
+  version "8.1.7-pmx.2"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_darwin_aarch64.tar.gz"
-      sha256 "0518f08ea05ba29d3907ad9b978aa965fb9c62c94d4e6f1779d879067785f67d"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_darwin_aarch64.tar.gz"
+      sha256 "abadea9c4071cee69bbedb8b9903c66f02ddd31307d3cc5f34575d68f869834d"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_darwin_amd64.tar.gz"
-      sha256 "84af26ff2defb921034aebec5500d8e629c4fc8b3dc5d692df22de1905120a01"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_darwin_amd64.tar.gz"
+      sha256 "70721a3fda6b7f21f2ba32af99f6c4038fac1998945f08a0fd15ceb82c0fe703"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_linux_aarch64.tar.gz"
-      sha256 "0ac55760e05dbdc09a5c00c0fd8418dd9b32ff9fb1a72173bc1df0628b59fe28"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_linux_aarch64.tar.gz"
+      sha256 "b2ad3bdeccfe2d3540c2104a3cdc5afb9a13794a6b793e8e9beddccd86b4a6b2"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.1/provimux_8.1.7-pmx.1_linux_amd64.tar.gz"
-      sha256 "750c162b29072d5bc085404c9bb99f861a45c1f0973278478f754236098ffcad"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_linux_amd64.tar.gz"
+      sha256 "2e887fa94af359b9cb7516e387051275262be2ab9210b016de1e0e52ca0fce4b"
     end
   end
 
