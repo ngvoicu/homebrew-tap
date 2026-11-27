@@ -45,12 +45,8 @@ class Provimux < Formula
 
   def caveats
     <<~EOS
-      Provimux reads #{etc}/provimux.conf, created from the example on first install.
-      It uses the same config format and auth folder (~/.cli-proxy-api) as CLIProxyAPI.
-      To reuse an existing Homebrew CLIProxyAPI setup:
-        ln -sf #{etc}/cliproxyapi.conf #{etc}/provimux.conf
-      Do not run it beside the cliproxyapi service on the same port:
-        brew services stop cliproxyapi
+      Config: #{etc}/provimux.conf (created from the example on first install).
+      Docs: https://provimux.providers.dev
     EOS
   end
 
