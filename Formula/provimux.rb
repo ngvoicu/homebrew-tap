@@ -57,6 +57,10 @@ class Provimux < Formula
   service do
     run [opt_bin/"provimux", "--config", etc/"provimux.conf"]
     keep_alive true
+    # On a stop or restart Provimux waits for the answers in flight (server.restart-drain-seconds,
+    # 25 seconds by default, 30 at most: the gateway gives its whole stop 30 seconds); launchd and
+    # systemd kill it only after 40. stop_timeout exists from Homebrew 6.0.13; an older Homebrew skips it.
+    stop_timeout 40 if respond_to?(:stop_timeout)
     log_path var/"log/provimux.log"
     error_log_path var/"log/provimux.log"
   end
