@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.7-pmx.2"
+  version "8.1.7-pmx.3"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_darwin_aarch64.tar.gz"
-      sha256 "abadea9c4071cee69bbedb8b9903c66f02ddd31307d3cc5f34575d68f869834d"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_darwin_aarch64.tar.gz"
+      sha256 "68c678c296c98ba616fb84d4cce42d5a34793974eb01cd6b869281508a67fcb1"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_darwin_amd64.tar.gz"
-      sha256 "70721a3fda6b7f21f2ba32af99f6c4038fac1998945f08a0fd15ceb82c0fe703"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_darwin_amd64.tar.gz"
+      sha256 "0597b8b33f2849fc3e2c1ae279060d83cb573a29b0620a8486f199af5c21ea69"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_linux_aarch64.tar.gz"
-      sha256 "b2ad3bdeccfe2d3540c2104a3cdc5afb9a13794a6b793e8e9beddccd86b4a6b2"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_linux_aarch64.tar.gz"
+      sha256 "e6ec7b618dc14e845852a4cab5532094ab3eeea10fcd5fe8711ef06dbba727c5"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.2/provimux_8.1.7-pmx.2_linux_amd64.tar.gz"
-      sha256 "2e887fa94af359b9cb7516e387051275262be2ab9210b016de1e0e52ca0fce4b"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_linux_amd64.tar.gz"
+      sha256 "c4a2cd1ee314a616e6a48663b9f039457dbcaaae162fd52c00b05cd141b4784e"
     end
   end
 
