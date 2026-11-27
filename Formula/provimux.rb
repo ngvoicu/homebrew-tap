@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.7-pmx.3"
+  version "8.1.7-pmx.4"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_darwin_aarch64.tar.gz"
-      sha256 "68c678c296c98ba616fb84d4cce42d5a34793974eb01cd6b869281508a67fcb1"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_darwin_aarch64.tar.gz"
+      sha256 "9d1b8aeadbc8373fe8d5968efc650965f5d060f62d97fbaa73b11c67bdf11764"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_darwin_amd64.tar.gz"
-      sha256 "0597b8b33f2849fc3e2c1ae279060d83cb573a29b0620a8486f199af5c21ea69"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_darwin_amd64.tar.gz"
+      sha256 "86237087975272edc08177d643e90a3b110fc74c62659cce5d24788e549c89e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_linux_aarch64.tar.gz"
-      sha256 "e6ec7b618dc14e845852a4cab5532094ab3eeea10fcd5fe8711ef06dbba727c5"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_linux_aarch64.tar.gz"
+      sha256 "d54ee8bc8c694c983971f7c83b1a615ea8c2a9c507b48023a068498a4df0df42"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.3/provimux_8.1.7-pmx.3_linux_amd64.tar.gz"
-      sha256 "c4a2cd1ee314a616e6a48663b9f039457dbcaaae162fd52c00b05cd141b4784e"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_linux_amd64.tar.gz"
+      sha256 "c89df9a616952737a589b0310bd03e2ec61879286efa0ae62df030867e377062"
     end
   end
 
