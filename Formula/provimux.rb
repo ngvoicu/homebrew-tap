@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.7-pmx.5"
+  version "8.1.8-pmx.1"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_darwin_aarch64.tar.gz"
-      sha256 "03bcc51ed8b3a9a540f5d769b4e60b4f11bd2a0ca9b418dec50371aea8ac95d5"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.8-pmx.1/provimux_8.1.8-pmx.1_darwin_aarch64.tar.gz"
+      sha256 "4bd7c3b55822e03b4afe907d911e7d7491f233a3c07905a394405d2dc5f708d7"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_darwin_amd64.tar.gz"
-      sha256 "a2173831de6eed2895bae5cf18f5e268d9b66830cd9fbb70bd794a2ade1c0299"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.8-pmx.1/provimux_8.1.8-pmx.1_darwin_amd64.tar.gz"
+      sha256 "c1907e5436ae183be29713f0eab5085484786cc4bc0e487f63fb60f0a5be111c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_linux_aarch64.tar.gz"
-      sha256 "1efeb75d7f62cbc1fa2389e523ea821a72a13167c5d303218ca3ef22626e53c0"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.8-pmx.1/provimux_8.1.8-pmx.1_linux_aarch64.tar.gz"
+      sha256 "64883296dea110505d15670e5b223d45e2cd5fdeacc35cf383a1d46dcffd3f52"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_linux_amd64.tar.gz"
-      sha256 "b169a24483baa7800bdab559c465c8824b043905a59b1bfc8e1893adeb36acc6"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.8-pmx.1/provimux_8.1.8-pmx.1_linux_amd64.tar.gz"
+      sha256 "3c44b1e27ade29e69165627708595346440cf2a3883de56dacf5866a19295179"
     end
   end
 
