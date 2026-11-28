@@ -1,7 +1,7 @@
 class Provimux < Formula
   desc "One local endpoint for your AI subscriptions and API keys, by providers.dev"
   homepage "https://github.com/ngvoicu/provimux"
-  version "8.1.7-pmx.4"
+  version "8.1.7-pmx.5"
   license "MIT"
 
   livecheck do
@@ -12,23 +12,23 @@ class Provimux < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_darwin_aarch64.tar.gz"
-      sha256 "9d1b8aeadbc8373fe8d5968efc650965f5d060f62d97fbaa73b11c67bdf11764"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_darwin_aarch64.tar.gz"
+      sha256 "03bcc51ed8b3a9a540f5d769b4e60b4f11bd2a0ca9b418dec50371aea8ac95d5"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_darwin_amd64.tar.gz"
-      sha256 "86237087975272edc08177d643e90a3b110fc74c62659cce5d24788e549c89e1"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_darwin_amd64.tar.gz"
+      sha256 "a2173831de6eed2895bae5cf18f5e268d9b66830cd9fbb70bd794a2ade1c0299"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_linux_aarch64.tar.gz"
-      sha256 "d54ee8bc8c694c983971f7c83b1a615ea8c2a9c507b48023a068498a4df0df42"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_linux_aarch64.tar.gz"
+      sha256 "1efeb75d7f62cbc1fa2389e523ea821a72a13167c5d303218ca3ef22626e53c0"
     end
     on_intel do
-      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.4/provimux_8.1.7-pmx.4_linux_amd64.tar.gz"
-      sha256 "c89df9a616952737a589b0310bd03e2ec61879286efa0ae62df030867e377062"
+      url "https://github.com/ngvoicu/provimux/releases/download/v8.1.7-pmx.5/provimux_8.1.7-pmx.5_linux_amd64.tar.gz"
+      sha256 "b169a24483baa7800bdab559c465c8824b043905a59b1bfc8e1893adeb36acc6"
     end
   end
 
